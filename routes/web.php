@@ -36,3 +36,5 @@ Route::get('/directorios/search/', [DirectorioController::class, 'search'])->nam
 
 //contactosController
 Route::get('/contactos/{codigo}', [ContactoController::class, 'index'])->name('contacto.index');
+
+Route::get('/contactos/agregar', [ContactoController::class, 'agregar'])->name('contacto.agregar');

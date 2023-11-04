@@ -16,4 +16,10 @@ class ContactoController extends Controller
         
         return view('vercontactos', compact('contactos'));
     }
+
+    public function agregar()
+    {      
+        
+        return view('agregarcontacto');
+    }
 }
